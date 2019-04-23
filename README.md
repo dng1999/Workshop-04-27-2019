@@ -23,3 +23,23 @@ How To Run This Project
 </ol>
 
 <p>After the last command 'jupyter notebook', in your web browser should appear a window with the ImageConvNet file. Open it and have fun.  </p> 
+
+<h3>Debug Log</h3>
+<p>It appears that MacOS has some issues with pre-loading requirements.txt when you type <strong>pip3 install -r requirements.txt</strong>
+This bug appears when you execute the code in Jupyter Notebook. Bummer.. But anyways, hot fix is as follows:
+
+    <ol>
+    <li>pip3 install jupyter</li>
+    <li>pip3 install tensorflow</li>
+    <li>pip3 install keras</li>
+    <li>pip3 install Pillow</li>
+    </ol>
+
+This should solve the problem... Have fun.
+</p>
+
+
+
+
+
+
